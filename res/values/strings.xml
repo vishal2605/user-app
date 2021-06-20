@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">User App navigation Drawer</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_college">The institute is located in 47 acres of green campus at Andheri (W), the fastest growing suburb of Mumbai. In 1995 Self Financed Engineering Course were added to Sardar Patel College of Engineering and the college has been conducting Electronics Engineering, Computer Engineering and Information Technology Courses from 1995-1996 and Masters course in Electronics since 2005 till 2008. These courses have earned a great reputation in the field of engineering education, as well as industry. The University of Mumbai desired that these self financed courses be separated and housed in a separate building and developed as a separate self financed entity. Thus Bharatiya Vidya Bhavan’s Sardar Patel College of Engineering, Unaided Wing from year 2005-2006 was established in its new building under the name and style of Bharatiya Vidya Bhavan’s Sardar Patel Institute of Technology and is affiliated to Mumbai University.</string>
+    <string name="contact_details">Sardar Patel Institute of Technology Bhavan’s Campus, Munshi Nagar, Andheri (West), Mumbai 400 058 Phone: (91)-(022)-26707440, 26287250 principal{at}spit.ac.in</string>
+    <string-array name="theme">
+        <item>
+            System Default
+        </item>
+        <item>
+            Dark
+        </item>
+        <item>
+            Light
+        </item>
+    </string-array>
+
+</resources>

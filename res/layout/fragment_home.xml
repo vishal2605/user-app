@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.homeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/sliderView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:sliderScrollTimeInSec="3"
+                app:sliderAnimationDuration="750"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="#5A5858"
+                app:sliderIndicatorUnselectedColor="#c1c1c1"
+                app:sliderStartAutoCycle="true">
+
+            </com.smarteist.autoimageslider.SliderView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Spit"
+                android:layout_marginTop="36dp"
+                android:textSize="@dimen/text_size"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_college"
+                android:layout_marginTop="36dp"
+                android:textSize="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@color/black">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="36dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Department"
+                        android:layout_marginTop="36dp"
+                        android:textSize="@dimen/text_size"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/white"
+                        android:textStyle="bold">
+                    </TextView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="16dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Computer Science"
+                                android:layout_marginTop="36dp"
+                                android:textSize="@dimen/text_margin"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:textStyle="normal">
+                            </TextView>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/cardview_dark_background">
+
+                            </View>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="IT"
+                                android:layout_marginTop="36dp"
+                                android:textSize="@dimen/text_margin"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:textStyle="normal">
+                            </TextView>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/cardview_dark_background">
+
+                            </View>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Electronics telcommunication"
+                                android:layout_marginTop="36dp"
+                                android:textSize="@dimen/text_margin"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:textStyle="normal">
+                            </TextView>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/cardview_dark_background">
+
+                            </View>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Electronics "
+                                android:layout_marginTop="36dp"
+                                android:textSize="@dimen/text_margin"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:textStyle="normal">
+                            </TextView>
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Contact Details"
+                    android:layout_marginTop="36dp"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact_details"
+                    android:layout_marginTop="36dp"
+                    android:textSize="@dimen/text_margin"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/textColor"
+                    android:textStyle="normal">
+
+                </TextView>
+                <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:id="@+id/map"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/map">
+
+            </ImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
